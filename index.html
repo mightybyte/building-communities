@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+    <title>Building Healthy Communities</title>
+
+    <meta name="description" content="Lessons from organizing NYHUG">
+    <meta name="author" content="Doug Beardsley">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+          <h1>Building Healthy Communities</h1>
+          <h3>Lessons from <a href="http://www.meetup.com/NY-Haskell/">NYHUG</a></h3>
+					<p>
+            <small>by <a href="http://softwaresimply.blogspot.com">Doug Beardsley</a> / <a href="http://github.com/mightybyte">github</a></small>
+					</p>
+				</section>
+
+        <section>
+          <h3>What is Healthy?</h3>
+          <ul>
+            <li class="fragment">Facilitates Knowledge Transfer</li>
+            <li class="fragment">Facilitates Discovery/Creation of New Knowledge</li>
+          </ul>
+        </section>
+
+        <section>
+          <section>
+            <h3>Knowledge Transfer</h3>
+          </section>
+
+          <section>
+            <h3>Knowledge Transfer Requirements</h3>
+            <ul>
+              <li class="fragment">People who don't know</li>
+              <li class="fragment">People who do know</li>
+              <li class="fragment">In the same room (chatroom)</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Obstacles to Knowledge Transfer</h3>
+            <ul>
+              <li class="fragment">People who don't know are intimidated and don't come.</li>
+              <li class="fragment">People who do know think it's a waste of time and don't come.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>How to get beginner and advanced people in the same room?</h3>
+            <p >Explicitely cater to both groups</p>
+            <p class="fragment highlight-blue">Commit to always having a beginner and a non-beginner talk</p>
+          </section>
+
+          <section>
+            <h3>Result</h3>
+            <p>Advanced people come</p>
+            <p>Beginners start to absorb things they wouldn't have otherwise!</p>
+          </section>
+
+          <section>
+            <h3>Challenge</h3>
+            <p>That's a <b>LOT</b> of talks!</p>
+            <p class="fragment highlight-blue">Share the work amongst 3+ organizers</p>
+          </section>
+
+          <section>
+            <p class="fragment highlight-blue">Maximize knowledge transfer by posting videos and slides</p>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h3>Knowledge Discovery/Creation</h3>
+          </section>
+
+          <section>
+            <h3>Knowledge Discovery/Creation</h3>
+            <p>Looks a lot like knowledge transfer...<span class="fragment">people exchanging ideas</span></p>
+            <p class="fragment">Less about talks, more about hacking</p>
+          </section>
+
+          <section>
+            <h3>Organize hack sessions</h3>
+            <p class="fragment">The word "hackathon" would be great, but recently it has become more associated with contests. :(</p>
+            <p class="fragment">No agenda, people just get together for a day or weekend to talk / work on projcets.</p>
+          </section>
+
+          <section>
+            <h3>Venues can be hard to find</h3>
+          </section>
+
+          <section>
+            <p class="fragment highlight-blue">Expand your network and include organizers from outside your community</p>
+          </section>
+
+          <section>
+            <p class="fragment highlight-blue">Go out of your way to have good relations with your venues</p>
+          </section>
+        </section>
+
+        <section>
+          <h3>Summary</h3>
+          <ul>
+            <li><a href="#/2/3">Always have a beginner and non-beginner talk</a></li>
+            <li><a href="#/2/5">Share the work amongst 3+ organizers</a></li>
+            <li><a href="#/2/6">Always post videos and slides if possible</a></li>
+            <li><a href="#/3/4">Include people from outside your community</a></li>
+            <li><a href="#/3/5">Go out of your way to have good relations with your venues</a></li>
+          </ul>
+        </section>
+
+      </div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
